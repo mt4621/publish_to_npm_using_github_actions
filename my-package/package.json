@@ -1,6 +1,6 @@
 {
     "name": "@mt4621/publish_to_npm_using_github_actions",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "📦 npm package tutorial",
     "main": "index.js",
     "scripts": {
@@ -20,9 +20,8 @@
         "registry"
     ],
     "author": {
-        "name": "Brad Garropy",
-        "email": "bradgarropy@gmail.com",
-        "url": "https://bradgarropy.com"
+        "name": "Mamatha R",
+        "email": "thummamamatha96@gmail.com",
     },
     "license": "MIT",
     "bugs": {
