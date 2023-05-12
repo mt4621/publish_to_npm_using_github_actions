@@ -19,7 +19,8 @@
         "package",
         "registry"
     ],
-    "name": "Brad Garropy",
+    "author": {
+        "name": "Brad Garropy",
         "email": "bradgarropy@gmail.com",
         "url": "https://bradgarropy.com"
     },
