@@ -14,7 +14,10 @@ jobs:
                   node-version: 12
                   registry-url: https://npm.pkg.github.com
             - name: publish
-              run: npm publish --access public
+              run: |
+                node --version
+                $echo node
+                npm publish --access public
               working-directory: my-package
               env:
                   NODE_AUTH_TOKEN: ${{secrets.GHE_PAT}}
