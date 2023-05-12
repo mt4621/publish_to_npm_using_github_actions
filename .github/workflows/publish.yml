@@ -16,7 +16,6 @@ jobs:
             - name: publish
               run: |
                 node --version
-                $echo node
                 npm publish --access public
               working-directory: my-package
               env:
