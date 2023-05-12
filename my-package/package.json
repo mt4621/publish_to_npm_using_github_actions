@@ -19,9 +19,9 @@
         "package",
         "registry"
     ],
-    "author": {
-        "name": "Mamatha R",
-        "email": "thummamamatha96@gmail.com",
+    "name": "Brad Garropy",
+        "email": "bradgarropy@gmail.com",
+        "url": "https://bradgarropy.com"
     },
     "license": "MIT",
     "bugs": {
