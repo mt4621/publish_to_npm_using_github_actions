@@ -1,6 +1,6 @@
 {
     "name": "@mt4621/publish_to_npm_using_github_actions",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "📦 npm package tutorial",
     "main": "index.js",
     "scripts": {
