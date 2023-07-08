@@ -25,7 +25,7 @@ jobs:
         node-version: '16'  
     - run: npm install xlsx
     - name: GitHub script
-      uses: actions/github-script@6.4.0
+      uses: actions/github-script@6.4.1
       with:
         github-token: ${{ secrets.GHE_PAT }}
         script: |
