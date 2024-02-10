@@ -9,8 +9,6 @@ on:
 jobs:
   start-instance:
     runs-on: ubuntu-latest
-    env:
-      AWS_DEFAULT_REGION: us-west-2
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -22,7 +20,7 @@ jobs:
 
       - name: Start EC2 Instance
         run: |
-          aws ec2 start-instances --instance-ids i-0b52b4739e7cc7665
+          aws ec2 start-instances --instance-ids i-0b52b4739e7cc7665 --region us-east-1
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
