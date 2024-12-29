@@ -10,14 +10,14 @@ jobs:
         run: |
           
           const octokit = new Octokit({
-            auth: 'YOUR-TOKEN'
+            auth: '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'
           })
           
           await octokit.request('POST /orgs/{mt4621-org}/repos', {
             org: 'mt4621-org',
             name: 'Hello-World',
             description: 'This is your first repository',
-            homepage: 'https://github.com',
+            homepage: 'https://github.com/mt4621-org',
             'private': false,
             has_issues: true,
             has_projects: true,
